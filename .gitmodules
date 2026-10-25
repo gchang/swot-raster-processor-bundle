@@ -1,0 +1,10 @@
+[submodule "Raster-Processor"]
+	path = Raster-Processor
+	url = https://github.com/gchang/swot-raster-processor.git
+[submodule "RiverObs"]
+	path = RiverObs
+	url = https://github.com/SWOTAlgorithms/RiverObs.git
+[submodule "swot-hydrology-toolbox"]
+	path = swot-hydrology-toolbox
+	url = https://github.com/CNES/swot-hydrology-toolbox.git
+	branch = release_version_08_23_2022

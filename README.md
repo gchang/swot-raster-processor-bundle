@@ -16,10 +16,10 @@ RiverObs and the toolbox have no release tags, so these are the commits the proc
 
 ## Software
 
-Python 3.11 (the code uses `datetime.UTC`; on 3.12 and newer RiverObs' RDF reader imports `distutils`) with numpy, scipy, netCDF4, GDAL, shapely, pyproj, bottleneck and rasterio, for example:
+Python 3.11 (the code uses `datetime.UTC`; on 3.12 and newer RiverObs' RDF reader imports `distutils`). `environment.yml` holds the checked conda-forge set:
 
 ```sh
-conda create -n swot-raster -c conda-forge python=3.11 numpy scipy netcdf4 gdal shapely pyproj bottleneck rasterio
+conda env create -f environment.yml
 ```
 
 ## Inputs

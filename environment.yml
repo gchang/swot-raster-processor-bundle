@@ -1,0 +1,17 @@
+# Conda environment for the SWOT Raster Processor bundle: the conda-forge set the 2026-10-25 check ran with.
+# Create it with: conda env create -f environment.yml
+name: swot-raster-processor-bundle
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11   # exactly 3.11: the code uses datetime.UTC (new in 3.11), and on 3.12 and newer RiverObs' RDF reader imports distutils, which was removed
+  - numpy         # not pinned; numpy 2.4 works but warns about np.row_stack in raster_crs.py, so a numpy that removes it would break the run
+  - scipy
+  - netcdf4
+  - gdal
+  - shapely
+  - pyproj
+  - bottleneck
+  - rasterio
+  # Left out on purpose: packages the submodules import only in other tools and processors, not on
+  # swot_pixc2raster.py's path (for example matplotlib, pandas, geopandas, scikit-image, CGAL).

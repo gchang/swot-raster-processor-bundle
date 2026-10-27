@@ -8,7 +8,7 @@ git clone --recurse-submodules https://github.com/gchang/swot-raster-processor-b
 
 | Submodule | Source | Commit | License |
 |---|---|---|---|
-| `Raster-Processor` | https://github.com/gchang/swot-raster-processor (upstream https://github.com/SWOTAlgorithms/Raster-Processor `release_v1.5` with two crash fixes, listed in its `MAAP_CHANGES.md`) | tag `release_v1.5.post1`, 5ebc6732 | Apache-2.0 |
+| `Raster-Processor` | https://github.com/gchang/swot-raster-processor (upstream https://github.com/SWOTAlgorithms/Raster-Processor `release_v1.5` with two crash fixes, listed in its `MAAP_CHANGES.md`) | tag `release_v1.5.post1`, e2a64493 | Apache-2.0 |
 | `RiverObs` | https://github.com/SWOTAlgorithms/RiverObs, branch `develop` | dc0c7fde | BSD 3-clause style (Caltech) |
 | `swot-hydrology-toolbox` | https://github.com/CNES/swot-hydrology-toolbox, branch `release_version_08_23_2022` | 9c72c352 | LGPL-3.0 |
 
